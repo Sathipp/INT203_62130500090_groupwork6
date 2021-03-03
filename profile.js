@@ -1,6 +1,8 @@
 const constraints = {
     firstname: {
-        presence: true,
+        presence: {
+            message: "is required"
+        },
     },
     lastname: {
         presence: true,
